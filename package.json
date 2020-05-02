@@ -1,0 +1,37 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start::dev": "nodemon server.js",
+    "start::prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Balogun Abdulganiyy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "slugify": "^1.4.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
